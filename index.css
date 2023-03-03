@@ -14,10 +14,6 @@
     border: 5px solid black;
     height: -webkit-fill-available;
 }
-.box:hover
-{
-    background-color: rgba(202, 202, 202, 0.493);
-}
 .container1 :nth-child(1)
 {
     border-top: none;
@@ -27,6 +23,13 @@
     width: -webkit-fill-available;
     border-right: none;
     border-bottom: none;
+    cursor: pointer;
+    font-size: 8vw;
+    color: black;
+    outline: none;
+    text-align: center;
+    border: none;
+    
 }
 .container1 :nth-child(2)
 {
@@ -124,7 +127,6 @@
     justify-content: center;
     text-align: center;   
 }
-
 #row1-col1-h1
 {
     font-size: 4.5rem;
