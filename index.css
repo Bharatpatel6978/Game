@@ -8,6 +8,10 @@
     margin-top: 0rem;
     margin-left: -1rem;
     padding-bottom: 9rem;
+   
+    /* font-size: 8vw; */
+    /* color: black; */
+   
 }
 .container1 div
 {
@@ -19,23 +23,22 @@
     border-top: none;
     border-left: none;
     text-align: center;
-    height: -webkit-fill-available;
+    height: fit-content;
     width: -webkit-fill-available;
     border-right: none;
     border-bottom: none;
-    cursor: pointer;
-    font-size: 8vw;
     color: black;
+    cursor: pointer;
     outline: none;
-    text-align: center;
+    font-weight: 700;
     border: none;
-    
+    font-size: 8vw;
 }
 .container1 :nth-child(2)
 {
     border-top: none; 
     text-align: center;
-    height: -webkit-fill-available;
+    height: fit-content;
     width: -webkit-fill-available;
     border-right: none;
     border-bottom: none;
@@ -46,14 +49,14 @@
     border-bottom: none;
     border-right: none;
     text-align: center; 
-    height: -webkit-fill-available;
+    height: fit-content;
     width: -webkit-fill-available; 
 }
 .container1 :nth-child(4)
 {
     border-left: none; 
     text-align: center;
-    height: -webkit-fill-available;
+    height: fit-content;
     width: -webkit-fill-available;
     border-bottom: none;
     border-right: none;
@@ -63,7 +66,7 @@
     text-align: center;
     border-bottom: none;
     border-right: none;
-    height: -webkit-fill-available;
+    height:fit-content;
     width: -webkit-fill-available;
 }
 .container1 :nth-child(6)
@@ -71,7 +74,7 @@
     border-right: none;
     text-align: center;
     border-bottom: none;
-    height: -webkit-fill-available;
+    height: fit-content;
     width: -webkit-fill-available; 
 }
 .container1 :nth-child(7)
@@ -79,7 +82,7 @@
     border-bottom: none;
     border-left: none; 
     border-right: none;
-    height: -webkit-fill-available;
+    height: fit-content;
     width: -webkit-fill-available;
     text-align: center; 
 }
@@ -88,7 +91,7 @@
     border-bottom: none;
     border-right: none;
     text-align: center;
-    height: -webkit-fill-available;
+    height: fit-content;
     width: -webkit-fill-available;
 }
 .container1 :nth-child(9)
@@ -96,7 +99,7 @@
     border-bottom: none;
     border-right: none;
     text-align: center;
-    height: -webkit-fill-available;
+    height: fit-content;
     width: -webkit-fill-available;     
 }
 #p1

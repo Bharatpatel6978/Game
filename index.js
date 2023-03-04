@@ -10,26 +10,19 @@ const o8 = document.getElementById("b9");
 
 let turn=0;
 
-function Click(event)
+function Click(bharat)
 {
-    // if(turn==0)
-    // {
-    //     img.value="x";
-    //     turn=1;
-
-    // }
     if (turn == 0) {
-        event.value ="X";
+        bharat.value ="X";
         turn = 1;
-        console.log(event.id);
-        document.getElementById(event.id).disabled = true;
+        console.log(bharat.id);
+        document.getElementById(bharat.id).disabled = true;
     }
     else if (turn == 1) {
-        event.value = "O";
+        bharat.value = "O";
         turn = 0;
-        event.disable;
-        console.log(event.id);
-        document.getElementById(event.id).disabled = true;
+        bharat.disable;
+        console.log(bharat.id);
+        document.getElementById(bharat.id).disabled = true;
     }
-    
 }
