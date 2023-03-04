@@ -46,94 +46,135 @@ function Result()
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
-        o0.style.backgroundColor = "red";
-        o1.style.backgroundColor = "red";
-        o2.style.backgroundColor = "red";
+        o3.style.backgroundColor = "red";
+        o4.style.backgroundColor = "red";
+        o5.style.backgroundColor = "red";
     }
     else if(o6.value=="X" && o7.value=="X" && o8.value=="X")
     {
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
+        o6.style.backgroundColor = "red";
+        o7.style.backgroundColor = "red";
+        o8.style.backgroundColor = "red";
     }
     else if(o0.value=="X" && o3.value=="X" && o6.value=="X")
     {
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
-
+        o0.style.backgroundColor = "red";
+        o3.style.backgroundColor = "red";
+        o6.style.backgroundColor = "red";
     }
     else if(o1.value=="X" && o4.value=="X" && o7.value=="X")
     {
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
+        o1.style.backgroundColor = "red";
+        o4.style.backgroundColor = "red";
+        o7.style.backgroundColor = "red";
     }
     else if(o2.value=="X" && o5.value=="X" && o8.value=="X")
     {
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
+        o2.style.backgroundColor = "red";
+        o5.style.backgroundColor = "red";
+        o8.style.backgroundColor = "red";
     }
     else if(o0.value=="X" && o4.value=="X" && o8.value=="X")
     {
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
+        o0.style.backgroundColor = "red";
+        o4.style.backgroundColor = "red";
+        o8.style.backgroundColor = "red";
     }
     else if(o2.value=="X" && o4.value=="X" && o6.value=="X")
     {
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
+        o2.style.backgroundColor = "red";
+        o4.style.backgroundColor = "red";
+        o6.style.backgroundColor = "red";
     }
     if(o0.value=="O" && o1.value=="O" && o2.value=="O")
     {
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        o0.style.backgroundColor = "red";
+        o1.style.backgroundColor = "red";
+        o2.style.backgroundColor = "red";
     }
     else if(o3.value=="O" && o4.value=="O" && o5.value=="O")
     {
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        o3.style.backgroundColor = "red";
+        o4.style.backgroundColor = "red";
+        o5.style.backgroundColor = "red";
     }
     else if(o6.value=="O" && o7.value=="O" && o8.value=="O")
     {
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        o6.style.backgroundColor = "red";
+        o7.style.backgroundColor = "red";
+        o8.style.backgroundColor = "red";
     }
     else if(o0.value=="O" && o3.value=="O" && o6.value=="O")
     {
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        o0.style.backgroundColor = "red";
+        o3.style.backgroundColor = "red";
+        o6.style.backgroundColor = "red";
     }
     else if(o1.value=="O" && o4.value=="O" && o7.value=="O")
     {
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        o1.style.backgroundColor = "red";
+        o4.style.backgroundColor = "red";
+        o7.style.backgroundColor = "red";
     }
     else if(o2.value=="O" && o5.value=="O" && o8.value=="O")
     {
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        o2.style.backgroundColor = "red";
+        o5.style.backgroundColor = "red";
+        o8.style.backgroundColor = "red";
     }
     else if(o0.value=="O" && o4.value=="O" && o8.value=="O")
     {
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        o0.style.backgroundColor = "red";
+        o4.style.backgroundColor = "red";
+        o8.style.backgroundColor = "red";
     }
     else if(o2.value=="O" && o4.value=="O" && o6.value=="O")
     {
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        o2.style.backgroundColor = "red";
+        o4.style.backgroundColor = "red";
+        o6.style.backgroundColor = "red";
     }
     else if((o0.value=="X" || o0.value=="O")&&
         (o1.value=="X" || o1.value=="O")&&
