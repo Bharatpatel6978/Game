@@ -7,7 +7,7 @@
     align-items: center;
     margin-top: 0rem;
     margin-left: -1rem;
-    padding-bottom: 9rem;
+    /* padding-bottom: 9rem; */
    
     /* font-size: 8vw; */
     /* color: black; */
@@ -32,7 +32,8 @@
     outline: none;
     font-weight: 700;
     border: none;
-    font-size: 8vw;
+    font-size: 6.3vw;
+    
 }
 .container1 :nth-child(2)
 {
@@ -150,4 +151,8 @@
 {
     font-size: 5rem;
     text-align: center;    
+}
+.color
+{
+    background-color: blue  ;
 }
