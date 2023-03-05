@@ -155,6 +155,58 @@
 {
     text-align: center;
 }
+#cr-div
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+#cr-div2
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+#cr1
+{
+    height: 16rem;
+    width: fit-content;
+    background: transparent;
+    visibility: hidden;
+    position: absolute;
+    z-index: -1;
+}
+#cr2
+{
+    height: 16rem;
+    width: fit-content;
+    background: transparent;
+    visibility: hidden;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}
+#cr3
+{
+    height: 16rem;
+    width: fit-content;
+    background: transparent;
+    visibility: hidden;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+}
+#cr4
+{
+    height: 16rem;
+    width: fit-content;
+    background: transparent;
+    visibility: hidden;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
 @media screen and (max-width: 767px) 
 {
     #col-p1 {
@@ -178,6 +230,41 @@
     {
         display: flex;
         justify-content: space-around;
+    }
+    #cr1 {
+        height: 11rem;
+        width: fit-content;
+        background: transparent;
+        visibility: hidden;
+        position: absolute;
+        z-index: -1;
+        
+    }
+    #cr2 {
+        height: 11rem;
+        width: fit-content;
+        background: transparent;
+        visibility: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+    #cr3 {
+        height: 11rem;
+        width: fit-content;
+        background: transparent;
+        visibility: hidden;
+        position: absolute;
+        z-index: -1;
+        bottom: 8rem;
+    }
+    #cr4 {
+        height: 11rem;
+        width: fit-content;
+        background: transparent;
+        visibility: hidden;
+        position: absolute;
+        z-index: -1;
+        bottom: 8rem;
     }
 }
 @media screen and (max-width:412px) 
@@ -242,5 +329,23 @@
     }
     #row1-col2-h2 {
         font-size: 1.3rem;
+    }
+    #cr3 {
+        height: 11rem;
+        width: fit-content;
+        background: transparent;
+        visibility: hidden;
+        position: absolute;
+        z-index: 0;
+        bottom: 16rem;
+    }
+    #cr4 {
+        height: 11rem;
+        width: fit-content;
+        background: transparent;
+        visibility: hidden;
+        position: absolute;
+        z-index: 0;
+        bottom: 16rem;
     }
 }

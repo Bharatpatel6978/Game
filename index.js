@@ -8,7 +8,11 @@ const o6 = document.getElementById("b7");
 const o7 = document.getElementById("b8");
 const o8 = document.getElementById("b9");
 const w1 = document.getElementById("win");
-const r1 = document.getElementById("resetbtn")
+const r1 = document.getElementById("resetbtn");
+const t1 = document.getElementById("cr1");
+const t2 = document.getElementById("cr2");
+const t3 = document.getElementById("cr3");
+const t4 = document.getElementById("cr4");
 let turn=0;
 
 function Click(bharat)
@@ -34,6 +38,10 @@ function Result()
     {
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o0.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o1.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o2.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -44,6 +52,10 @@ function Result()
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o3.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o5.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -53,6 +65,10 @@ function Result()
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o6.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o7.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o8.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -62,6 +78,10 @@ function Result()
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o0.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o3.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o6.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -71,6 +91,10 @@ function Result()
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o1.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o7.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -80,6 +104,10 @@ function Result()
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o2.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o5.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o8.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -89,6 +117,10 @@ function Result()
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o0.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o8.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -98,6 +130,10 @@ function Result()
         console.log("X winner");
         w1.innerHTML="Player 1 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o2.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o6.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -107,6 +143,10 @@ function Result()
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o0.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o1.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o2.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -116,6 +156,10 @@ function Result()
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o3.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o5.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -125,6 +169,10 @@ function Result()
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o6.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o7.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o8.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -134,6 +182,10 @@ function Result()
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o0.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o3.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o6.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -143,6 +195,10 @@ function Result()
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o1.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o7.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -152,6 +208,10 @@ function Result()
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o2.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o5.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o8.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -161,6 +221,10 @@ function Result()
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o0.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o8.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -170,6 +234,10 @@ function Result()
         console.log("O winner");
         w1.innerHTML="Player 2 Winner";
         disable();
+        t1.style.visibility = 'visible';
+        t2.style.visibility = 'visible';
+        t3.style.visibility = 'visible';
+        t4.style.visibility = 'visible';
         o2.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o6.style.backgroundColor = "rgb(173 92 148 / 75%)";
