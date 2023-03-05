@@ -13,11 +13,17 @@ const t1 = document.getElementById("cr1");
 const t2 = document.getElementById("cr2");
 const t3 = document.getElementById("cr3");
 const t4 = document.getElementById("cr4");
+const t5 = document.getElementById("cong");
+const b1 =  document.getElementById("col-p1");
+const b2 =  document.getElementById("col-p3");
 let turn=0;
+b1.style.border = '5px solid black';
 
 function Click(bharat)
 {
     if (turn == 0) {
+        b2.style.border = '5px solid black';
+        b1.style.border = "none";
         bharat.value ="X";
         turn = 1;
         console.log(bharat.id);
@@ -26,6 +32,8 @@ function Click(bharat)
     else if (turn == 1) {
         bharat.value = "O";
         turn = 0;
+        b1.style.border = '5px solid black';
+        b2.style.border = "none";
         console.log(bharat.id);
         document.getElementById(bharat.id).disabled = true;
     }
@@ -42,6 +50,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b2.style.border = "none";
         o0.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o1.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o2.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -56,6 +66,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b2.style.border = "none";
         o3.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o5.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -69,6 +81,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b2.style.border = "none";
         o6.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o7.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o8.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -82,6 +96,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b2.style.border = "none";
         o0.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o3.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o6.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -95,6 +111,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b2.style.border = "none";
         o1.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o7.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -108,6 +126,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b2.style.border = "none";
         o2.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o5.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o8.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -121,6 +141,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b2.style.border = "none";
         o0.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o8.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -134,6 +156,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b2.style.border = "none";
         o2.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o6.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -147,6 +171,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b1.style.border = "none";
         o0.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o1.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o2.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -160,6 +186,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b1.style.border = "none";
         o3.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o5.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -173,6 +201,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b1.style.border = "none";
         o6.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o7.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o8.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -186,6 +216,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b1.style.border = "none";
         o0.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o3.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o6.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -199,6 +231,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b1.style.border = "none";
         o1.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o7.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -212,6 +246,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b1.style.border = "none";
         o2.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o5.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o8.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -225,6 +261,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b1.style.border = "none";
         o0.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o8.style.backgroundColor = "rgb(173 92 148 / 75%)";
@@ -238,6 +276,8 @@ function Result()
         t2.style.visibility = 'visible';
         t3.style.visibility = 'visible';
         t4.style.visibility = 'visible';
+        t5.style.visibility = 'visible';
+        b1.style.border = "none";
         o2.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o4.style.backgroundColor = "rgb(173 92 148 / 75%)";
         o6.style.backgroundColor = "rgb(173 92 148 / 75%)";

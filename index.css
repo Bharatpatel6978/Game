@@ -207,6 +207,22 @@
     right: 0;
     bottom: 0;
 }
+#cong
+{
+    height: fit-content;
+    width: 9rem;
+    background: transparent;
+    position: absolute;
+    z-index: 0;
+    left: 35rem;
+    top: 2rem;
+    visibility: hidden;
+}
+#win
+{
+    padding-top: 4rem;
+}
+
 @media screen and (max-width: 767px) 
 {
     #col-p1 {
