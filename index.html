@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
 </head>
-<body>
+<body style="background-color: rgba(54,3,104,255);">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -19,19 +19,19 @@
             </div>
         </div>
         <div class="row " id="row1">
-            <div class="col-sm-5 " id="col-p1">
-                <h1 id="row1-col1-h1">Player-1</h1>
+            <div class="col-sm-5 col-md-5 " id="col-p1">
+                <h2 id="row1-col1-h2">Player-1</h2>
                 <!-- <input type="text" value="Name" id="p1"> -->
-                <label for="p1"><h2>Sign X</h2></label>
+                <label for="p1"><h3>Sign X</h3></label>
                 
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 col-md-2" id="col-p2">
                 <button type="reset" id="resetbtn" onclick="window.location.reload()">Reset</button>
             </div>
-            <div class="col-sm-5" id="col-p2">
-                <h1 id="row1-col2-h1">Player-2</h1>
+            <div class="col-sm-5 col-md-5" id="col-p3">
+                <h2 id="row1-col2-h2">Player-2</h2>
                 <!-- <input type="text" value="Name" id="p2"> -->
-                <label for="p2"><h2>Sign O</h2></label>
+                <label for="p2"><h3>Sign O</h3></label>
             </div>
         </div>
         <div class="container1">
@@ -45,9 +45,7 @@
             <div class="box"><input type="text" id="b8" onclick="Click(this)"></div>
             <div class="box"><input type="text" id="b9" onclick="Click(this)"></div>
         </div>
-    </div>    
-    <!-- <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="Bootstrap/js/bootstrap.min.js"></script> -->
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
