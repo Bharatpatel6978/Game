@@ -17,12 +17,13 @@ const t5 = document.getElementById("cong");
 const b1 =  document.getElementById("col-p1");
 const b2 =  document.getElementById("col-p3");
 let turn=0;
-b1.style.border = '5px solid black';
+b1.style.borderBottom = '5px solid';
+
 
 function Click(bharat)
 {
     if (turn == 0) {
-        b2.style.border = '5px solid black';
+        b2.style.borderBottom = '5px solid ';
         b1.style.border = "none";
         bharat.value ="X";
         turn = 1;
@@ -32,7 +33,7 @@ function Click(bharat)
     else if (turn == 1) {
         bharat.value = "O";
         turn = 0;
-        b1.style.border = '5px solid black';
+        b1.style.borderBottom = '5px solid ';
         b2.style.border = "none";
         console.log(bharat.id);
         document.getElementById(bharat.id).disabled = true;
