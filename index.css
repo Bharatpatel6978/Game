@@ -207,13 +207,14 @@
     right: 0;
     bottom: 0;
 }
-#cong
+#cong 
 {
     height: fit-content;
     width: 9rem;
     background: transparent;
     z-index: 0;
     visibility: hidden;
+    margin-top: -2rem;
 }
 #win
 {
